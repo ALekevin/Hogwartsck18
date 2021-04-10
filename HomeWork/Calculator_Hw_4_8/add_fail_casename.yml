@@ -1,0 +1,9 @@
+#['int', 'float', 'bignum', 'zeronum', 'str中文', 'str英文', 'str数字', 'str特殊字符']
+- ‘int’
+- ‘float’
+- ‘bignum’
+- ‘zeronum’
+- ‘str中文‘
+- ’str英文’
+- ‘str数字’
+- ‘str特殊字符’

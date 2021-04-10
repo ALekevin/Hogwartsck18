@@ -1,0 +1,6 @@
+#['int', 'float', 'int-float', 'bignum', 'zeronum']
+- 'int'
+- 'float'
+- 'int-float'
+- 'bignum'
+- 'zeronum'
