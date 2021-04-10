@@ -1,0 +1,8 @@
+import time
+
+now_time=time.time()
+three_days_time=now_time+3*24*60*60
+time_tuple=time.localtime(three_days_time)
+print(time.strftime("%Y/%m/%d %H:%M:%S", time_tuple))
+
+
