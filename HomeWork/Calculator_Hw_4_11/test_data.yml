@@ -1,0 +1,138 @@
+add_success_data:
+  -
+    - 1
+    - 1
+    - 2
+  -
+    - 0.1
+    - 0.1
+    - 0.2
+  -
+    - 1000
+    - 1000
+    - 2000
+  -
+    - 0
+    - 1000
+    - 1000
+add_success_casename:
+  - 'int'
+  - 'float'
+  - 'bignum'
+  - 'zeronum'
+add_fail_data:
+  -
+    - 1
+    - 1
+    - 3
+  -
+    - 0.1
+    - 0.1
+    - 0.3
+  -
+    - 1000
+    - 1000
+    - 3000
+  -
+    - 0
+    - 1000
+    - 2000
+  -
+    - "乐"
+    - "恺欣"
+    - “乐恺欣”
+  -
+    - "a"
+    - "b"
+    - "ab"
+  -
+    - "1"
+    - "2"
+    - "3"
+  -
+    - "#"
+    - "$"
+    - "#$"
+add_fail_casename:
+  - ‘int’
+  - ‘float’
+  - ‘bignum’
+  - ‘zeronum’
+  - ‘str中文‘
+  - ’str英文’
+  - ‘str数字’
+  - ‘str特殊字符’
+div_success_data:
+  -
+    - 4
+    - 2
+    - 2
+  -
+    - 0.04
+    - 0.2
+    - 0.2
+  -
+    - 1
+    - 2
+    - 0.5
+  -
+    - 100000000
+    - 1000
+    - 100000
+  -
+    - 0
+    - 1
+    - 0
+div_success_casename:
+  - 'int'
+  - 'float'
+  - 'int-float'
+  - 'bignum'
+  - 'zeronum'
+div_fail_data:
+  -
+    - 1
+    - 2
+    - 3
+  -
+    - 0.1
+    - 0.2
+    - 0.3
+  -
+    - 1000
+    - 2000
+    - 3000
+  -
+    - 0
+    - 2000
+    - 2000
+  -
+    - 2000
+    - 0
+    - 1000
+  -
+    - "乐"
+    - "恺欣"
+    - "乐恺欣"
+  -
+    - "a"
+    - "b"
+    - "ab"
+  -
+    - "1"
+    - "2"
+    - "3"
+  -
+    - "#"
+    - "$"
+    - "#$"
+div_fail_casename:
+  - 'int'
+  - 'float'
+  - 'bignum'
+  - 'zeroNumerator'
+  - 'zerodenominator'
+  - 'str中文'
+  - 'str英文'
+  - 'str数字'
+  - 'str特殊字符'
