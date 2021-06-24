@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_calculator_fixture.py:21 test_sub 数据 [0.2, 0.1, 0.1]

@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_calculator_fixture.py:13 test_add 数据 [-1, -2, -3]
