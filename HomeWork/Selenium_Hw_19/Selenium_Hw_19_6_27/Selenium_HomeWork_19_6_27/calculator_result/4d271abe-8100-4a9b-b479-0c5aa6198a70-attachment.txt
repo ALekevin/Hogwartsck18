@@ -1,0 +1,14 @@
+INFO     root:main_page.py:17 点击通讯录
+INFO     root:contact_page.py:21 点击添加按钮
+INFO     root:contact_page.py:24 点击添加部门按钮
+INFO     root:create_department_page.py:23 获取公司名
+INFO     root:create_department_page.py:26 输入部门名称
+INFO     root:create_department_page.py:29 选择所属部门
+INFO     root:create_department_page.py:37 点击确定
+INFO     root:contact_page.py:21 点击添加按钮
+INFO     root:contact_page.py:24 点击添加部门按钮
+INFO     root:create_department_page.py:23 获取公司名
+INFO     root:create_department_page.py:26 输入部门名称
+INFO     root:create_department_page.py:29 选择所属部门
+INFO     root:create_department_page.py:37 点击确定
+INFO     root:contact_page.py:37 获取失败信息

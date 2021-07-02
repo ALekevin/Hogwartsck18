@@ -1,43 +1,23 @@
-import _thread
-import logging
-import threading
-from time import sleep, ctime
+from time import sleep
 
-logging.basicConfig(level=logging.INFO)
-
-loops = [2, 4]
-
-class Mythread(threading.Thread):
-    def __init__(self,func,args,name=''):
-        threading.Thread.__init__(self)
-        self.func=func
-        self.args=args
-        self.name=name
-    def run(self):
-        self.func(*self.args)
+from selenium import webdriver
+from selenium.webdriver import ActionChains
+from selenium.webdriver.common.by import By
 
 
-
-def loop(nloop, time):
-    logging.info("start loop" + str(nloop) + " at " + ctime())
-    sleep(time)
-    logging.info("end loop" + str(nloop) + " at " + ctime())
-
-
-def main():
-    logging.info("start all at " + ctime())
-    locks = []
-    loop_n = range(len(loops))
-    for i in loop_n:
-        t=Mythread(func=loop, args=(i, loops[i]),name=loop.__name__)
-        locks.append(t)
-    for i in loop_n:
-        locks[i].start()
-    for i in loop_n:
-        locks[i].join()
-
-    logging.info("end all at " + ctime())
-
-
-if __name__ == '__main__':
-    main()
+def test_action():
+    driver = webdriver.Chrome()
+    driver.get('http://sahitest.com/demo/clicks.htm')
+    dbl_element=driver.find_element(By.XPATH,'/html/body/form/input[2]')
+    click_element=driver.find_element(By.XPATH,'/html/body/form/input[3]')
+    rightclick_element=driver.find_element(By.XPATH,'/html/body/form/input[4]')
+    clear_element=driver.find_element(By.XPATH,'/html/body/form/input[1]')
+    action=ActionChains(driver)
+    action.double_click(dbl_element).click(click_element).context_click(rightclick_element).move_to_element(clear_element).click().perform()
+    sleep(3)
+    driver.get("https://sahitest.com/demo/dragDropMooTools.htm")
+    drag_element=driver.find_element(By.ID,'dragger')
+    drop_element=driver.find_element(By.XPATH,'/html/body/div[2]')
+    action=ActionChains(driver)
+    action.drag_and_drop(drag_element,drop_element).perform()
+    sleep(3)

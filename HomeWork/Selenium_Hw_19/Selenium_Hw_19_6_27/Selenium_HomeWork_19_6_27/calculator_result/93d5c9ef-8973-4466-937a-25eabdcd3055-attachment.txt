@@ -1,0 +1,3 @@
+INFO     root:main_page.py:17 点击通讯录
+INFO     root:contact_page.py:26 点击添加按钮
+INFO     root:main_page.py:17 点击通讯录
