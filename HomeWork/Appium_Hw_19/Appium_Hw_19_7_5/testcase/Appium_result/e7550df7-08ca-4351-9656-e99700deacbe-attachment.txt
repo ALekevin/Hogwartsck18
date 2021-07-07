@@ -1,0 +1,7 @@
+[32mINFO    [0m root:basepage.py:13 进入通讯录页
+[32mINFO    [0m root:basepage.py:13 滑动查找添加成员按钮
+[32mINFO    [0m root:basepage.py:13 点击手动输入添加
+[32mINFO    [0m root:basepage.py:13 填写姓名
+[32mINFO    [0m root:basepage.py:13 填写手机号
+[32mINFO    [0m root:basepage.py:13 点击保存
+[32mINFO    [0m root:basepage.py:13 获取toast提示信息

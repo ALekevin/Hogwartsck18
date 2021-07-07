@@ -1,0 +1,7 @@
+[32mINFO    [0m root:basepage.py:13 进入通讯录页
+[32mINFO    [0m root:basepage.py:13 点击成员:朱宇
+[32mINFO    [0m root:basepage.py:13 点击设置按钮
+[32mINFO    [0m root:basepage.py:13 点击编辑成员按钮
+[32mINFO    [0m root:basepage.py:13 点击删除成员按钮
+[32mINFO    [0m root:basepage.py:13 点击确定
+[32mINFO    [0m root:basepage.py:13 获取成员列表
