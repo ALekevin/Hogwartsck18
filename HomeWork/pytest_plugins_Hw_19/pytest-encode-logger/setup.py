@@ -27,7 +27,7 @@ setup(
     # 入口模块 或者入口函数
     entry_points={
         'pytest11': [
-            'pytest-encode = pytest_encode',
+            'pytest_encode_logger = pytest_encode_logger',
         ]
     },
     #   windows需要的
