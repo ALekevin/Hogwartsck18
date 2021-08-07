@@ -14,7 +14,7 @@ class ISelenium(unittest.TestCase):
     # 读入配置文件
     def get_config(self):
         config = configparser.ConfigParser()
-        config.read(os.path.join(os.environ['HOME'], 'iselenium.ini'))
+        config.read(os.path.join('C:',os.environ['HOMEPATH'], 'iselenium.ini'),encoding='UTF-8')
         return config
 
     def tearDown(self):
